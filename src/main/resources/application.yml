@@ -1,0 +1,12 @@
+server:
+  port: 6761
+eureka:
+  instance:
+    hostname: 10.10.181.166
+  client:
+    region: http://10.10.181.166:8761/eureka/
+logging:
+  level: debug
+spring:
+  application:
+    name: CommonClientService
